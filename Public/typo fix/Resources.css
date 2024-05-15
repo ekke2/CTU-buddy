@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+    background: #1a1a1d;
+    height: 100%;
+}
+
+main a {
+    color: whitesmoke;
+}
+/* Using main to not interrfere with the navbar and footer*/
+main body,main h1,main h2,main ul,main li,main form,main label,main select,main button {
+    margin: 1em;
+    padding: 1em;
+    color: whitesmoke;
+    background-color: #1a1a1d;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    text-align: center;
+    padding: 50px 0;
+}
+
+main h1 {
+    margin-bottom: 20px;
+}
+
+.upload-section,
+.resources-section {
+    margin-bottom: 50px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main label,main select,main button {
+    display: block;
+    margin: 10px;
+    
+}
+
+main select {
+    width: 100%;
+    padding: 5px;
+}
+
+.resource-list {
+    list-style: none;
+    text-align: left;
+}
+
+.resource-list li {
+    margin-bottom: 10px;
+}
+
+.upload-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the actual file input */
+.upload-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/* Style the styled button to mimic the appearance of the "Choose File" button */
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a1a1d;
+    color: whitesmoke;
+    border: 1px solid #c3073f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background : linear-gradient(to right ,#c3073f,#e03636);
+}
+
+#submit:hover {
+    background : linear-gradient(to left ,#c3073f,#e03636); 
+}
+
+#submit {
+    width: 90%;
+    border: 1px solid #c3073f;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.resource-list {
+    /*.list-style: none;*/
+    text-align: left;
+    text-align: center;
+}
+
+.resource-list li {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center; 
+}
+
+.cloud_fundamentals {
+    display: none; /* Hide by default, will be shown by JS if selected */
+}
+
+.computer_architecture {
+    display: none; 
+}
+.core_web_development {
+    display: none; 
+}
+.digital_literacy {
+    display: none; 
+}
+.ethics_network_architecture {
+    display: none; 
+}
+.programme_design {
+    display: none; 
+}
+.python_programming {
+    display: none; 
+}
+.robotic_development {
+    display: none; 
+}
+
+#category-select {
+    width: 50%;
+    margin-right: auto;
+    border: #c3073f solid 1px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.filter-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    width: 40%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-right: 30%;
+    width: 50%;
+}
+
+#resource-search {
+    width: 50%;
+    margin-left: 10px;
+    border: 1px solid #c3073f;
+    outline: none;
+    background: #1a1a1d;
+    border-radius: 5px;
+    height: 30px;
+    color: whitesmoke;
+}
+

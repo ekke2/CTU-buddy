@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(39, 35, 35);
+}
+
+#ytvideo {
+    width: 100%;			
+    display: flex;
+    flex-direction: column; 	
+    flex-wrap: wrap;        	
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.Box {
+    width: 200px;
+    height: 40px;
+    top: 12px;
+    font-family: "Roboto", sans-serif;
+}
+.features {
+    text-align: center;
+    padding: 50px 0;
+    color: whitesmoke;
+}
+
+.feature {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.feature img {
+    max-width: 100%;
+}
+
+/* About and Contact Sections */
+.about,
+.contact {
+    text-align: center;
+    padding: 50px 0;
+    color: whitesmoke;
+}
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+.imgBanner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 100px;
+    animation: drop 500ms ease;
+}
+
+h1{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.line-1 {
+    height: 1px;
+    margin-top: -50px;
+    width: 50%;
+    margin-left: 25%;
+    background: #c3073f;
+}
+

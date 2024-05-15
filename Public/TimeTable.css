@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+body {
+    background: #1a1a1d;
+    padding-top: 90px;
+}
+
+.nav {
+    margin-top: -90px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+.calendar {
+    width: 75%;
+    margin: 0 auto;
+    background: linear-gradient(to right, #1a1a1d, rgb(73, 73, 73));
+    font-family: 'Montserrat';
+    color: whitesmoke;
+    border: 1px solid #c3073f;
+    border-radius: 10px;
+    height: 700px;
+}
+
+th {
+    padding: 8px;
+    border-bottom: 2px solid #c3073f;
+}
+
+.thead {
+    font-size: 20px;
+    background: linear-gradient(to right, #8f062f, #6f2232);
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    transition: .7s ease;
+}
+
+.thead:hover {
+    color: #1a1a1d;
+    font-size: 20px;
+    background:  linear-gradient(to left, whitesmoke, rgb(73, 73, 73));
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    transition: .7s ease;
+}
+
+.tr {
+    border-bottom: 1px solid #c3073f;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #c3073f;
+    text-align: right;
+    vertical-align: top;
+    border-right: 1px solid #c3073f;
+}
+
+.module,.time {
+    font-size: 20px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}

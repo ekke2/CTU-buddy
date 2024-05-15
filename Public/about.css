@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.pic{
+    width: auto;
+    height: 700px;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    border: solid 3px #c3073f;
+    border-radius: 32px;
+}
+
+.pfp{
+    height: auto;
+    width: 70%;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.thread{
+    width: 35%;
+    height: 700px;
+    border-radius: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 3px solid #c3073f;
+    background: linear-gradient(to right, #1a1a1d, rgb(73, 73, 73));
+}
+
+.BigThread{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 32px;
+    border: 3px solid #c3073f;
+}
+
+.Container {
+    margin-top: 60px;
+    border: none;
+}
+
+.thread.normal{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-left: 10%;
+    background: linear-gradient(to right, #1a1a1d, rgb(73, 73, 73));
+}
+
+.container{
+    height: 2400px;
+    width: auto;
+}
+
+html{
+    height: 22px
+}
+
+.Container h1 {
+    font-size: 65px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Container h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.Container h4 {
+    color: whitesmoke;
+}
+
+body {
+    background-color: #1a1a1d;
+}
+
+button {
+    border: 1px solid;
+    border-color: #c3073f;
+    box-shadow: 0 0 10px #c3073f;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+}
