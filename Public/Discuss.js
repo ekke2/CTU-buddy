@@ -1,7 +1,7 @@
 import { createConnection } from 'mysql';
 
 const connection = createConnection({
-  
+  // Your database configuration
 });
 
 connection.connect((err) => {
@@ -27,7 +27,15 @@ function displayComments(){
     comments.forEach(comment => {
         const commentElement = document.createElement("div");
         commentElement.classList.add("comment");
-        commentElement.innerHTML = `<strong>${comment.name}:</strong> ${comment.text}`;
+        
+        const strongElement = document.createElement("strong");
+        strongElement.textContent = `${comment.name}:`;
+        
+        const textNode = document.createTextNode(` ${comment.text}`);
+        
+        commentElement.appendChild(strongElement);
+        commentElement.appendChild(textNode);
+        
         commentsDiv.appendChild(commentElement);
     });
 }
@@ -49,7 +57,15 @@ function submitComment(event) {
     const commentsDiv = document.getElementById("discussionBoard");
     const commentElement = document.createElement("div");
     commentElement.classList.add("comment");
-    commentElement.innerHTML =`<strong>${name}:</strong>${comment}`;
+    
+    const strongElement = document.createElement("strong");
+    strongElement.textContent = `${name}:`;
+    
+    const textNode = document.createTextNode(` ${comment}`);
+    
+    commentElement.appendChild(strongElement);
+    commentElement.appendChild(textNode);
+    
     commentsDiv.appendChild(commentElement);
 
     // Clear the form inputs
