@@ -1,5 +1,5 @@
 <?php
-        $mysqli = new mysqli("localhost","root","","ctubuddy");
+        $mysqli = new mysqli();
 
         // Check connection
         if ($mysqli -> connect_errno) {
